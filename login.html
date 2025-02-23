@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image:url(4d5dd8f09553154dcdd288bd1d5fd282_1538199617-1024x498.jpg);
+            background-repeat:no-repeat;
+            background-size: 100% auto;
+        }
+        @media (max-width: 768px){
+            body{
+                font-size: 14px;
+            }
+        }
+        @media (min-width:768px){
+            body{
+                font-size: 18px;
+            }
+        }
+        .container{
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        button{
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="revisedpg1.html">
+            <input type="text" placeholder="Username" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
